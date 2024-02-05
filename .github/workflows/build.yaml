@@ -6,7 +6,7 @@ on:
 
 jobs:
   call-workflow:
-    uses: byteverse/.github/.github/workflows/build.yaml@main
+    uses: byteverse/.github/.github/workflows/build.yaml@runner
     secrets: inherit
     with:
       release: false
